@@ -22,7 +22,13 @@ triangulo2=area_triangulo(9,6)
 print(triangulo1)
 print(triangulo2)'''
 
-al_cubo=lambda numero:pow(numero, 3) #El primero es la base y el segundo es el exponente
-al_cubo=lambda numero:pow(numero**3)
+# al_cubo=lambda numero:pow(numero, 3) #El primero es la base y el segundo es el exponente
+# al_cubo=lambda numero:pow(numero**3)
 
-print(al_cubo(13))
+# print(al_cubo(13))
+
+destacar_valor=lambda comision: "${}".format(comision)
+
+comision_Ana=15585
+
+print(destacar_valor(comision_Ana))
